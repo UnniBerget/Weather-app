@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <h1>Weather App</h1>
       <WeatherSearch />
-      <WeatherForcast />
+      <WeatherForecast />
     </div>
   );
 }
