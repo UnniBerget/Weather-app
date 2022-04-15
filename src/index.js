@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import WeatherSearch from "./WeatherSearch";
+import WeatherForcast from "./WeatherForecast";
 
 import "./App.css";
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <h1>Weather App</h1>
       <WeatherSearch />
+      <WeatherForcast />
     </div>
   );
 }
